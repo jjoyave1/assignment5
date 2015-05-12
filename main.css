@@ -1,0 +1,19 @@
+*{
+  background: #A5A5A5;
+  text-align: center;
+}
+
+body{
+  margin: 3em;
+}
+
+h3{
+  color: white;
+}
+
+input{
+  background-color: #EEEEEE;
+}
+.answer{
+  color: white;
+}
