@@ -8,30 +8,36 @@ var clear = document.getElementById('clear');
 var decimal = document.getElementById('decim');
 
 var btn1 = document.querySelector("#btnOne");
-var btn2 = document.querySelector("#btnTwo");
-var btn3 = document.querySelector("#btnThree");
-var btn4 = document.querySelector("#btnFour");
-var btn5 = document.querySelector("#btnFive");
-var btn6 = document.querySelector("#btnSix");
-var btn7 = document.querySelector("#btnSeven");
-var btn8 = document.querySelector("#btnEight");
-var btn9 = document.querySelector("#btnNine");
+// var btn2 = document.querySelector("#btnTwo");
+// var btn3 = document.querySelector("#btnThree");
+// var btn4 = document.querySelector("#btnFour");
+// var btn5 = document.querySelector("#btnFive");
+// var btn6 = document.querySelector("#btnSix");
+// var btn7 = document.querySelector("#btnSeven");
+// var btn8 = document.querySelector("#btnEight");
+// var btn9 = document.querySelector("#btnNine");
 
-function numToScreen(event){
+function setInput(event){
   var clickedNum = event.target;
-  var displayedNumber = Number(clickedNum.getAttribute("data-number"));
+  var displayedNumber = Number(clickedNum.getAttribute('data-number'));
   result.innerHTML = displayedNumber.toString();
 }
 
-btn1.addEventListener('click', numToScreen);
-btn2.addEventListener('click', numToScreen);
-btn3.addEventListener('click', numToScreen);
-btn4.addEventListener('click', numToScreen);
-btn5.addEventListener('click', numToScreen);
-btn6.addEventListener('click', numToScreen);
-btn7.addEventListener('click', numToScreen);
-btn8.addEventListener('click', numToScreen);
-btn9.addEventListener('click', numToScreen);
+// function numToScreen(event){
+//   var clickedNum = event.target;
+//   var displayedNumber = Number(clickedNum.getAttribute("data-number"));
+//   result.innerHTML = displayedNumber.toString();
+// }
+
+btn1.addEventListener('click', setInput);
+// btn2.addEventListener('click', numToScreen);
+// btn3.addEventListener('click', numToScreen);
+// btn4.addEventListener('click', numToScreen);
+// btn5.addEventListener('click', numToScreen);
+// btn6.addEventListener('click', numToScreen);
+// btn7.addEventListener('click', numToScreen);
+// btn8.addEventListener('click', numToScreen);
+// btn9.addEventListener('click', numToScreen);
 
 
 
