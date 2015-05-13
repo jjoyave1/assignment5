@@ -17,17 +17,6 @@ var btn7 = document.querySelector("#btnSeven");
 var btn8 = document.querySelector("#btnEight");
 var btn9 = document.querySelector("#btnNine");
 
-btn1 = Number(btn1.getAttribute("data-number"));
-btn2 = Number(btn2.getAttribute("data-number"));
-btn3 = Number(btn3.getAttribute("data-number"));
-btn4 = Number(btn4.getAttribute("data-number"));
-btn5 = Number(btn5.getAttribute("data-number"));
-btn6 = Number(btn6.getAttribute("data-number"));
-btn7 = Number(btn7.getAttribute("data-number"));
-btn8 = Number(btn8.getAttribute("data-number"));
-btn9 = Number(btn9.getAttribute("data-number"));
-
-
 function numToScreen(event){
   var clickedNum = event.target;
   var displayedNumber = Number(clickedNum.getAttribute("data-number"));
@@ -43,3 +32,16 @@ btn6.addEventListener('click', numToScreen);
 btn7.addEventListener('click', numToScreen);
 btn8.addEventListener('click', numToScreen);
 btn9.addEventListener('click', numToScreen);
+
+
+
+
+// btn1 = Number(btn1.getAttribute("data-number"));
+// btn2 = Number(btn2.getAttribute("data-number"));
+// btn3 = Number(btn3.getAttribute("data-number"));
+// btn4 = Number(btn4.getAttribute("data-number"));
+// btn5 = Number(btn5.getAttribute("data-number"));
+// btn6 = Number(btn6.getAttribute("data-number"));
+// btn7 = Number(btn7.getAttribute("data-number"));
+// btn8 = Number(btn8.getAttribute("data-number"));
+// btn9 = Number(btn9.getAttribute("data-number"));
