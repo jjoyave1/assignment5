@@ -1,7 +1,11 @@
+h1{
+  text-align: center;
+}
 .calculator{
   display: block;
   width: 300px;
   height: auto;
+  margin: 0 auto;
 }
 .row{
   float: left;
