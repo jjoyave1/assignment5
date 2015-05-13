@@ -4,6 +4,9 @@
   <link rel="stylesheet" type="text/css" href="main.calc.css">
 </head>
 <body>
+
+<h1>BASIC CALCULATOR</h1>
+
 <div class="calculator">
 
     <div class="row">
@@ -22,7 +25,7 @@
       <button data-number = "9" id = "btnNine" class="num">9</button>
 
       <!-- divide -->
-      <button class ="oper" id="divide">&divide;</button>
+      <button data-operation ="/" class ="oper" id="divide">&divide;</button>
 
     </div>
 
@@ -36,7 +39,7 @@
       <button data-number = "6" id = "btnSix" class="num">6</button>
 
       <!-- multiply -->
-      <button class="oper" id="multiply">&times;</button>
+      <button data-operation ="*" class="oper" id="multiply">&times;</button>
 
     </div>
 
@@ -49,7 +52,7 @@
       <button data-number = "3" id = "btnThree" class="num">3</button>
 
       <!-- subtract -->
-      <button id="subtract">&minus;</button>
+      <button data-operation ="-" id="subtract">&minus;</button>
 
     </div>
 
@@ -64,7 +67,7 @@
       <button class = "oper" id = "equals">&equals;</button>
 
       <!-- add -->
-      <button class = "oper" id = "add">&plus;</button>
+      <button data-operation ="+" class = "oper" id = "add">&plus;</button>
 
     </div>
 
@@ -73,3 +76,4 @@
 <script type="text/javascript" src="main.calc.js"></script>
 </body>
 </html>
+
