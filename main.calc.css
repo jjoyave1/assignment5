@@ -1,0 +1,22 @@
+.calculator{
+  display: block;
+  width: 300px;
+  height: auto;
+}
+.row{
+  float: left;
+  width: 100%;
+  display: inline-block;
+}
+.disp{
+  width: 74%;
+  height: auto;
+  text-align: right;
+  border: solid 1px;
+  border-radius: 5px;
+  display: inline-block;
+}
+button{
+  width: 24%;
+  height: auto;
+}
